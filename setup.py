@@ -94,6 +94,7 @@ setup(
             'disambiguate = multiqc.modules.disambiguate:MultiqcModule',
             'dedup = multiqc.modules.dedup:MultiqcModule',
             'deeptools = multiqc.modules.deeptools:MultiqcModule',
+            'duplex_seq = multiqc.modules.duplex_seq:MultiqcModule',
             'fastp = multiqc.modules.fastp:MultiqcModule',
             'fastq_screen = multiqc.modules.fastq_screen:MultiqcModule',
             'fastqc = multiqc.modules.fastqc:MultiqcModule',

@@ -244,6 +244,12 @@ deeptools/plotPCAData:
 deeptools/plotProfile:
     contents: 'bin labels'
     num_lines: 1
+duplex_seq/classificationMetrics:
+    fn: '*.consensus.duplex_seq.classification_metrics.txt'
+duplex_seq/detailedMetrics:
+    fn: '*.duplex_seq.detailed_metrics.txt'
+duplex_seq/rawInsertSize:
+    fn: '*.raw.mapped.insert_size_metrics.txt'
 fastp:
     fn: '*fastp.json'
 fastq_screen:
